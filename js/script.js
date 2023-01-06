@@ -54,7 +54,6 @@ if (
 	printMessage("nieznany ruch");
  }
 }
-}
 displayResult (ComputerMove, PlayerMove);
 document.getElementById('play-rock').addEventListener('click', function(){
 	playGame('Kamień');
@@ -64,4 +63,4 @@ document.getElementById('play-paper').addEventListener('click', function(){
 }); 
 document.getElementById('play-scissors').addEventListener('click', function(){
 	playGame('Nożyce');
-});  
+}); }
